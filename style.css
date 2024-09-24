@@ -42,6 +42,16 @@ html {
     cursor: pointer;
 }
 
+#nav-links {
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+#nav-links li {
+            margin: 0 10px;
+        }
+
 .navbar ul {
     list-style: none;
     padding: 0;
@@ -351,7 +361,13 @@ footer {
         flex-direction: column; /* Vertikal pada tampilan kecil */
         width: 100%;
     }
-
+    
+    #nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background-color: #f3f3ee;
+            }
     .navbar ul li {
         margin: 10px 0; /* Jarak antar item pada menu vertikal */
     }
