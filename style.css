@@ -371,7 +371,6 @@ footer {
         background-color: rgba(243, 243, 238, 0.9); 
         position: absolute; 
         top: 100%; 
-        right: 500px; 
         z-index: 999; 
     }
     
