@@ -363,7 +363,7 @@ footer {
     .hamburger {
         display: block; /* Tampilkan hamburger menu */
     }
-
+    
     .header {
         flex-direction: column;
         align-items: center;
