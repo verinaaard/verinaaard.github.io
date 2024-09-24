@@ -22,14 +22,16 @@ html {
 .portfolio-title:hover {
     color: #d45e40; 
 }
+
 .navbar {
     position: fixed;
     width: 100%;
     z-index: 1000;
     background-color: rgba(243, 243, 238, 0.9);
     display: flex;
-    justify-content: right;
-    padding: 16px 0;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 16px 20px; 
 }
 
 .navbar input[type="checkbox"] {
@@ -43,14 +45,14 @@ html {
 }
 
 #nav-links {
-            display: flex;
-            list-style: none;
-            padding: 0;
-        }
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
 
 #nav-links li {
-            margin: 0 10px;
-        }
+    margin: 0 10px;
+}
 
 .navbar ul {
     list-style: none;
@@ -363,11 +365,16 @@ footer {
     }
     
     #nav-links {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-                background-color: #f3f3ee;
-            }
+        display: none; 
+        flex-direction: column; 
+        width: 100%;
+        background-color: rgba(243, 243, 238, 0.9); 
+        position: absolute; 
+        top: 100%; 
+        right: 0; 
+        z-index: 999; 
+    }
+    
     .navbar ul li {
         margin: 10px 0; /* Jarak antar item pada menu vertikal */
     }
